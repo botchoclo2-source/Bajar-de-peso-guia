@@ -44,7 +44,7 @@ export const Checkout: React.FC = () => {
            {/* Custom styled button replacing the image but keeping the class for the widget */}
            <a 
              onClick={(e) => e.preventDefault()} 
-             href="https://pay.hotmart.com/Q103839065N?checkoutMode=2" 
+             href="https://pay.hotmart.com/Q103839065N?checkoutMode=10" 
              className="hotmart-fb hotmart__button-checkout inline-flex items-center justify-center bg-[#40c351] hover:bg-[#36a544] text-white font-extrabold text-2xl py-5 px-12 rounded shadow-lg hover:shadow-xl transition-all duration-200 uppercase tracking-wide transform hover:-translate-y-1"
              style={{ textShadow: '0 1px 2px rgba(0,0,0,0.2)' }}
            >
